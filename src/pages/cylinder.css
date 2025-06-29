@@ -1,0 +1,18 @@
+/* Smooth animation if needed (optional) */
+@keyframes slide-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  animation: slide-left 30s linear infinite;
+}
+
+/* Optional: Scroll snapping */
+.scroll-snap-align-center {
+  scroll-snap-align: center;
+}
