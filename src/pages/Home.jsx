@@ -17,7 +17,7 @@ return (
            Full Stack Developer | Problem Solver | Tech Explorer
         </p>
         <div className="flex w-full">
-          <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-2 px-6 rounded-xl shadow-lg text-2xl hover:opacity-90 transition duration-300 ml-3 z-20">Download Resume</button>
+          <button onClick={()=>window.open("/Resume/Vadiraj-resume.pdf", "_blank")} className="bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-2 px-6 rounded-xl shadow-lg text-2xl hover:opacity-90 transition duration-300 ml-3 z-20">Download Resume</button>
         </div>
         
       </div>
