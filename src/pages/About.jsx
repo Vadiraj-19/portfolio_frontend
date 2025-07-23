@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-black text-white px-6 py-20 md:px-20" // removed min-h-screen
+      className="bg-black text-white px-6 py-20 md:px-20" 
     >
       <div className="max-w-7xl mx-auto font-poppins">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-10 text-gray-300">
@@ -19,15 +19,15 @@ const About = () => {
         </h2>
 
         <div className="text-lg md:text-2xl font-semibold leading-8 text-gray-400 whitespace-pre-line">
-          <Typewriter
+          <Typewriter 
             words={aboutLines}
-            typeSpeed={40}
-            deleteSpeed={0}
             cursor
             cursorStyle="_"
+            deleteSpeed={0}
             delaySpeed={2000}
             loop={Infinity}
-          />
+            typeSpeed={40}
+            />
         </div>
       </div>
     </section>
